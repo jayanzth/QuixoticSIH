@@ -1,0 +1,8 @@
+streamlit
+wkhtmltopdf
+PyPDF2
+tiktoken
+openai
+python-dotenv
+pdfkit
+langchain
