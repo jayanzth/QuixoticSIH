@@ -39,9 +39,14 @@ def main():
     st.title('Legal Documentation Assistant')
     page_bg_img = """
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    [data-testid="block-container"]{
+        font-family: 'Poppins', sans-serif;
+    }
     [data-testid="stAppViewContainer"]{
-        background-image: url("https://firebasestorage.googleapis.com/v0/b/notjayanth.appspot.com/o/unsplash-img.jpg?alt=media&token=80212a15-3d47-4596-ad6c-b28c11e5a5ff");
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/notjayanth.appspot.com/o/36.webp?alt=media&token=2b635216-55f9-47c6-a13d-31f21222111f");
         background-size: cover;
+        font-family: 'Poppins', sans-serif;
     }
     [data-testid="stHeader"]{
         background-color: rgba(0,0,0,0);
